@@ -1,0 +1,28 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1600px;
+  padding: 200px;
+}
+
+.grid-child2 {
+  background-color: gray;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+  z-index: 1;
+  position: fixed;
+  font-size: 14em;
+  max-width: 2000px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  margin-left: 200px;
+}
+
+h2 {
+  color:rgb(155, 6, 6);
+  position: absolute;
+  bottom: 400px;
+}

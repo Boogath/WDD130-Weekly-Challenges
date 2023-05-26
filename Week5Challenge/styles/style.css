@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 800px;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    
+    height: 620px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table; 
+    
+    
+}
+
+main {
+    background-color: gray;      
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#condense {
+    padding: 100px;  
+}
+
+.circleimg {    
+    border-radius: 60%;
+}
